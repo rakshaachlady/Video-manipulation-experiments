@@ -8,7 +8,7 @@ import argparse
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--input", type=str,help="path to input video file")
 ap.add_argument("-o", "--output", type=str, default='output', \
- help="minimum probability to filter weak detections")
+ help="name of the folder where you want to save frames")
 args = vars(ap.parse_args())
 
 #If input file name is not specified then it tries to capture frames from webcam
