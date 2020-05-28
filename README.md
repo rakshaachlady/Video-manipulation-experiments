@@ -14,6 +14,8 @@ python extract_frames.py --output folder_to_save_frames
 
 (Note:Output frames are with png extention)
 
+
+
 Reversing a video:
 
 To reverse a given video and save in the name as specified by the user
