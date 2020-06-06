@@ -26,7 +26,7 @@ height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 #check whether the location to store the output is specified or not.
 #If not specified or if it already exists then create a new video file
-if not args["output"] or os.path.isfile(args["output"]):
+if not args["output"] or os.path.isfile(args["output"]+'.mp4'):
     num = random.randint(0,100)
     path = 'output'+str(num)+'.mp4'
     print("Output file name is not specified or the name already exists.So,creating a file named ",path)
